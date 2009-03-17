@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope">
+
+    <adapter
+        factory=".workflow_history_journal.WorkflowHistoryJournalizable"
+        for="..interfaces.IWorkflowHistoryJournalizable"
+        provides="..interfaces.IJournalizer"
+        />
+    
+    <adapter
+        factory=".annotations_journal.AnnotationsJournalizable"
+        for="..interfaces.IAnnotationsJournalizable"
+        provides="..interfaces.IJournalizer"
+        />
+
+</configure>

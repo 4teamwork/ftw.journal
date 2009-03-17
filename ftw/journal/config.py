@@ -1,0 +1,1 @@
+JOURNAL_ENTRIES_ANNOTATIONS_KEY = 'ftw.journal.journal_entries_annotations_key'

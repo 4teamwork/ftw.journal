@@ -1,0 +1,50 @@
+Changelog
+=========
+
+0.3
+---
+
+* Moving from teamraum.journal to ftw.journal
+  [christian.schneider]
+
+
+0.2.3
+-----
+
+* Fixed bug that prevented journalizer event handler from working
+  [christian.schneider]
+
+
+0.2.2
+-----
+
+* Added i18n stuff
+  [christian.schneider]
+
+* Make journaling event handler check if an adapter exists before trying to journalize
+  [christian.schneider]
+
+
+0.2.1
+-----
+
+* Changed setup.py to try and fix the annoying dependency error when egg-info has not been deleted before running
+  buildout
+  [christian.schneider]
+
+
+0.2
+---
+
+* Implemented journaling mechanism using adapters and event handlers. There are two adapters to journalize something
+  on a context, one for journalizing in the workflow history, and one for an annotations-based journal. Which one
+  is used depends on which marker interface (see interfaces.py) the type implements. The annotations based system is
+  not tested yet.
+  [christian.schneider]
+
+
+0.1
+---
+
+* Initial release
+

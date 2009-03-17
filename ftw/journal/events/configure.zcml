@@ -1,0 +1,7 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope">
+
+    <subscriber for="..interfaces.IJournalEntryEvent"
+                handler=".handlers.JournalEntryHandler" />
+
+</configure>
