@@ -12,9 +12,9 @@ from plone.app.contentrules.browser.formhelper import AddForm, EditForm
 from plone.contentrules.rule.interfaces import IRuleElementData, IExecutable
 
 from Products.CMFCore.utils import getToolByName
-from ftw.journal import journalMessageFactory as _
 from Products.CMFPlone.utils import safe_unicode
 from ftw.journal.events.events import JournalEntryEvent
+from ftw.journal import journalMessageFactory as _
 
 
 class IJournalAction(Interface):

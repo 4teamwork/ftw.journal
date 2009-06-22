@@ -18,7 +18,7 @@
         />
 
     <browser:page
-        for="ftw.journal.actions.journal.IJournalAction"
+        for="ftw.journal.rules.journal.IJournalAction"
         name="edit"
         class=".journal.JournalEditForm"
         permission="cmf.ManagePortal"
