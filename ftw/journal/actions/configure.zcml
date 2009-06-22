@@ -1,0 +1,39 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone">
+    
+    <include package="plone.contentrules" />
+    <include package="plone.contentrules" file="meta.zcml" />
+
+    <!-- Journal action definition -->
+
+    <adapter factory=".journal.JournalActionExecutor" />
+
+    <browser:page
+        for="plone.app.contentrules.browser.interfaces.IRuleActionAdding"
+        name="ftw.journal.JournalAction"
+        class=".journal.JournalAddForm"
+        permission="cmf.ManagePortal"
+        />
+
+    <browser:page
+        for="ftw.journal.actions.journal.IJournalAction"
+        name="edit"
+        class=".journal.JournalEditForm"
+        permission="cmf.ManagePortal"
+        />
+
+    <plone:ruleAction
+        name="ftw.journal.JournalAction"
+        title="Journal Entry"
+        description="Add a note to the journal of the triggering object"
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="ftw.journal.JournalAction"
+        editview="edit"
+        schema=".journal.IJournalAction"
+        factory=".journal.JournalAction"
+        />
+
+</configure>
