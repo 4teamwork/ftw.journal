@@ -10,5 +10,6 @@
     
     <include package=".adapters" />
     <include package=".events" />
+    <include package=".rules" />
   
 </configure>

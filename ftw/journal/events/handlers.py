@@ -9,7 +9,7 @@ from ftw.journal import journalMessageFactory as _
 def JournalEntryHandler(event):
     """
     """
-    obj = event.obj
+    obj = event.object
     comment = event.comment
 
     try:

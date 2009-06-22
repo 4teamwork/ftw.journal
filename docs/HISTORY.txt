@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.4 - 22.06.2009
+----------------
+
+* Added contentrule action for journal entries
+  [christian.schneider]
+
+
 0.3
 ---
 

@@ -8,7 +8,7 @@ class JournalEntryEvent(object):
     implements(IJournalEntryEvent)
     
     def __init__(self, obj, comment, action=None, actor=None, time=None):
-        self.obj = obj
+        self.object = obj
         self.action = action
         self.comment = comment
         self.actor = actor

@@ -1,10 +1,11 @@
 from zope import schema
 from zope.interface import Interface, Attribute
+from zope.component.interfaces import IObjectEvent
 
 from ftw.journal import journalMessageFactory as _
 
 
-class IJournalEntryEvent(Interface):
+class IJournalEntryEvent(IObjectEvent):
     """An event that can be fired to make a journal entry
     """
 
