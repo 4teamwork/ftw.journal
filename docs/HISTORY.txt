@@ -5,6 +5,8 @@ Changelog
 ---
 
 * [13.10.2009] Created version.txt [jba]
+* [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba
+    * (AttributeError: context)
 
 
 0.4
