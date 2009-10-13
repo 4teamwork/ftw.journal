@@ -1,8 +1,14 @@
 Changelog
 =========
 
-0.4 - 22.06.2009
-----------------
+0.5
+---
+
+* [13.10.2009] Created version.txt [jba]
+
+
+0.4
+---
 
 * Added contentrule action for journal entries
   [christian.schneider]
