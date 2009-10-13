@@ -1,5 +1,7 @@
 from Acquisition import aq_inner
 
+from persistent.list import PersistentList
+from persistent.dict import PersistentDict
 from zope.annotation.interfaces import IAnnotations, IAnnotatable
 from zope.interface import alsoProvides
 
@@ -21,15 +23,15 @@ class AnnotationsJournalizable(object):
         journal_annotations = annotations.get(JOURNAL_ENTRIES_ANNOTATIONS_KEY, None)
         
         if not journal_annotations:
-            annotations[JOURNAL_ENTRIES_ANNOTATIONS_KEY] = []
-            journal_annotations = annotations.get(JOURNAL_ENTRIES_ANNOTATIONS_KEY, None)
+            annotations[JOURNAL_ENTRIES_ANNOTATIONS_KEY] = PersistentList()
+            journal_annotations = annotations.get(JOURNAL_ENTRIES_ANNOTATIONS_KEY)
 
-        history_entry = {
+        history_entry = PersistentDict({
                          'action' : action,
                          'comments' : comment,
                          'actor' : actor,
                          'time' : time,
-                         }
+                         })
     
         journal_annotations.append(history_entry)
         context._p_changed = True
