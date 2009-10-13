@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = open('ftw/journal/version.txt').read().strip()
+version = '0.4'
 
 setup(name='ftw.journal',
       version=version,

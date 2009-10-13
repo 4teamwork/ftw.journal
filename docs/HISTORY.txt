@@ -1,19 +1,8 @@
 Changelog
 =========
 
-0.5
----
-
-* [13.10.2009] Created version.txt [jba]
-* [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba]
-    * (AttributeError: context)
-* [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba]
-    * There seemed to be multiple journal list instances
-    * Using PersistentList and PersistentDict now
-
-
-0.4
----
+0.4 - 22.06.2009
+----------------
 
 * Added contentrule action for journal entries
   [christian.schneider]
