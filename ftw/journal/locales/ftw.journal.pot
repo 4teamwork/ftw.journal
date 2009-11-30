@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2009-02-25 13:09+0000\n"
+"POT-Creation-Date: 2009-11-30 16:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,44 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: ftw.journal\n"
 
+#: ftw.journal/ftw/journal/rules/journal.py:27
+msgid "A description that will be used in the 'comment' field in the journal entry."
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:71
+msgid "A journal action makes an entry into the journal of an object."
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:24
+msgid "A title that will be used in the 'action' field of the journal entry."
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:23
+msgid "Action"
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:70
+msgid "Add Journal Action"
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:26
+msgid "Comment"
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:72
+msgid "Configure element"
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:84
+msgid "Edit Journal Action"
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:43
+msgid "Journal action ${action}"
+msgstr ""
+
 #. Default: "Journal Entry"
-#: ./ftw/journal/events/handlers.py:17
+#: ftw.journal/ftw/journal/events/handlers.py:21
 msgid "label_journal_entry"
 msgstr ""
 

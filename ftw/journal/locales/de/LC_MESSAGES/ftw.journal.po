@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2009-02-25 13:09+0000\n"
+"POT-Creation-Date: 2009-11-30 16:31+0000\n"
 "PO-Revision-Date: 2009-02-25 14:39+0100\n"
 "Last-Translator: Christian Schneider <christian.schneider@4teamwork.ch>\n"
 "Language-Team: 4teamwork <info@4teamwork.ch>\n"
@@ -12,14 +12,49 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: ftw.journal\n"
 "X-Poedit-Language: German\n"
 
+#: ftw.journal/ftw/journal/rules/journal.py:27
+msgid "A description that will be used in the 'comment' field in the journal entry."
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:71
+msgid "A journal action makes an entry into the journal of an object."
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:24
+msgid "A title that will be used in the 'action' field of the journal entry."
+msgstr ""
+
+#: ftw.journal/ftw/journal/rules/journal.py:23
+msgid "Action"
+msgstr "Aktion"
+
+#: ftw.journal/ftw/journal/rules/journal.py:70
+msgid "Add Journal Action"
+msgstr "Journal Eintrag hinzufügen"
+
+#: ftw.journal/ftw/journal/rules/journal.py:26
+msgid "Comment"
+msgstr "Kommentar"
+
+#: ftw.journal/ftw/journal/rules/journal.py:72
+msgid "Configure element"
+msgstr "Element konfigurieren"
+
+#: ftw.journal/ftw/journal/rules/journal.py:84
+msgid "Edit Journal Action"
+msgstr "Journal Aktion bearbeiten"
+
+#: ftw.journal/ftw/journal/rules/journal.py:43
+msgid "Journal action ${action}"
+msgstr "Journal aktion ${action}"
+
 #. Default: "Journal Entry"
-#: ./ftw/journal/events/handlers.py:17
+#: ftw.journal/ftw/journal/events/handlers.py:21
 msgid "label_journal_entry"
 msgstr "Journaleintrag"
+
 
