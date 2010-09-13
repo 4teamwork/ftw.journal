@@ -2,9 +2,13 @@ Changelog
 =========
 
 
-1.0a2
------
+1.1
+---
 
+* Issue #23 Uebersetzung in PDF Deckblatt fehlen / Fehler wenn keine Datei hinaufgeladen wurde
+  https://extranet.4teamwork.ch/projects/teamraum-kva-buchs/tracker-kva-buchs/23/
+  translated actions in plone domain
+  [13.09.2010, jinfanger]
 
 1.0
 ---
