@@ -3,3 +3,4 @@
 ftw.journal.egg-info
 build
 dist
+*.mo
