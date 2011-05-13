@@ -34,7 +34,7 @@ msgstr "Aktion"
 
 #: ftw.journal/ftw/journal/rules/journal.py:70
 msgid "Add Journal Action"
-msgstr "Journal Eintrag hinzufügen"
+msgstr "Journaleintrag hinzufügen"
 
 #: ftw.journal/ftw/journal/rules/journal.py:26
 msgid "Comment"
@@ -46,11 +46,11 @@ msgstr "Element konfigurieren"
 
 #: ftw.journal/ftw/journal/rules/journal.py:84
 msgid "Edit Journal Action"
-msgstr "Journal Aktion bearbeiten"
+msgstr "Journalaktion bearbeiten"
 
 #: ftw.journal/ftw/journal/rules/journal.py:43
 msgid "Journal action ${action}"
-msgstr "Journal aktion ${action}"
+msgstr "Journalaktion ${action}"
 
 #. Default: "Journal Entry"
 #: ftw.journal/ftw/journal/events/handlers.py:21

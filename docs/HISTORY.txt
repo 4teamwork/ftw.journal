@@ -2,19 +2,18 @@ Changelog
 =========
 
 
-1.3
----
-
-
 1.2
 ---
 
+* Translations updated.
+  [phabegger]
 
 1.1
 ---
 
-* Issue #23 Uebersetzung in PDF Deckblatt fehlen / Fehler wenn keine Datei hinaufgeladen wurde
-  https://extranet.4teamwork.ch/projects/teamraum-kva-buchs/tracker-kva-buchs/23/
+* Issue #23 Uebersetzung in PDF Deckblatt fehlen / Fehler wenn keine Datei
+  hinaufgeladen wurde
+  https://extranet.4teamwork.ch/projects/teamraum-kva-buchs/tracker-kva-buchs/23
   translated actions in plone domain
   [13.09.2010, jinfanger]
 
@@ -59,25 +58,27 @@ Changelog
 * Added i18n stuff
   [christian.schneider]
 
-* Make journaling event handler check if an adapter exists before trying to journalize
+* Make journaling event handler check if an adapter exists before trying to
+  journalize
   [christian.schneider]
 
 
 0.2.1
 -----
 
-* Changed setup.py to try and fix the annoying dependency error when egg-info has not been deleted before running
-  buildout
+* Changed setup.py to try and fix the annoying dependency error when egg-info
+  has not been deleted before running buildout
   [christian.schneider]
 
 
 0.2
 ---
 
-* Implemented journaling mechanism using adapters and event handlers. There are two adapters to journalize something
-  on a context, one for journalizing in the workflow history, and one for an annotations-based journal. Which one
-  is used depends on which marker interface (see interfaces.py) the type implements. The annotations based system is
-  not tested yet.
+* Implemented journaling mechanism using adapters and event handlers. There are
+  two adapters to journalize something on a context, one for journalizing in
+  the workflow history, and one for an annotations-based journal. Which one
+  is used depends on which marker interface (see interfaces.py) the type
+  implements. The annotations based system is not tested yet.
   [christian.schneider]
 
 
