@@ -3,7 +3,7 @@ import os
 
 version = open('ftw/journal/version.txt').read().strip()
 maintainer = 'Jonas Baumann'
-
+tests_require = []
 setup(name='ftw.journal',
       version=version,
       description="Journaling infrastructure (Maintainer: %s)" % maintainer,
@@ -27,6 +27,9 @@ setup(name='ftw.journal',
       install_requires=[
         'setuptools',
         ],
+      tests_require=tests_require,
+      extras_require = dict(tests=tests_require),
+
       entry_points="""
       # -*- Entry points: -*-
       [z3c.autoinclude.plugin]

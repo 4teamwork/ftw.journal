@@ -5,6 +5,9 @@ Changelog
 1.2
 ---
 
+* added testsetup for jenkins
+  [eschmutz]
+
 * Translations updated.
   [phabegger]
 
