@@ -15,7 +15,7 @@ class JournalFunctionalLayer(PloneSandboxLayer):
             context=configurationContext)
 
     def setUpPloneSite(self, portal):
-        applyProfile(portal, 'ftw.journal:default')
+        pass
 
 
 FTW_JOURNAL_FIXTURE = JournalFunctionalLayer()
