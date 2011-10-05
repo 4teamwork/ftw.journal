@@ -3,7 +3,8 @@ import os
 
 version = open('ftw/journal/version.txt').read().strip()
 maintainer = 'Jonas Baumann'
-tests_require = ['plone.app.testing', ]
+tests_require = ['plone.app.testing',
+                 'plone.mocktestcase',]
 setup(name='ftw.journal',
       version=version,
       description="Journaling infrastructure (Maintainer: %s)" % maintainer,

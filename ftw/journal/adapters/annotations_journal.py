@@ -12,7 +12,7 @@ from ftw.journal.config import JOURNAL_ENTRIES_ANNOTATIONS_KEY
 
 class AnnotationsJournalizable(object):
     """Adapter to create journal entries in an annotation"""
-    
+
     def __init__(self, context):
         self.context = aq_inner(context)
         alsoProvides(self.context, IAnnotatable)
@@ -21,7 +21,7 @@ class AnnotationsJournalizable(object):
         context = self.context
         annotations = IAnnotations(context)
         journal_annotations = annotations.get(JOURNAL_ENTRIES_ANNOTATIONS_KEY, None)
-        
+
         if not journal_annotations:
             annotations[JOURNAL_ENTRIES_ANNOTATIONS_KEY] = PersistentList()
             journal_annotations = annotations.get(JOURNAL_ENTRIES_ANNOTATIONS_KEY)
@@ -32,6 +32,5 @@ class AnnotationsJournalizable(object):
                          'actor' : actor,
                          'time' : time,
                          })
-    
         journal_annotations.append(history_entry)
         context._p_changed = True

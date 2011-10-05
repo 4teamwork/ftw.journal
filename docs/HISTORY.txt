@@ -5,6 +5,9 @@ Changelog
 1.2
 ---
 
+* added functional tests for interfaces and adapters
+  [eschmutz]
+  
 * added testsetup for jenkins
   [eschmutz]
 
