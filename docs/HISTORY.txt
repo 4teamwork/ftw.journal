@@ -5,6 +5,9 @@ Changelog
 1.2
 ---
 
+* added functional test for events
+  [eschmutz]
+  
 * added functional tests for interfaces and adapters
   [eschmutz]
   
