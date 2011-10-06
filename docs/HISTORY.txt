@@ -5,6 +5,9 @@ Changelog
 1.2
 ---
 
+* added integration tests
+  [eschmutz]
+
 * added functional test for events
   [eschmutz]
   
