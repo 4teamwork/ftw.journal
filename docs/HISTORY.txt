@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.1 (2011-11-17)
+1.2.1 (unreleased)
 ------------------
 
 - changed entry_points target from opengever to plone
@@ -22,6 +22,13 @@ Changelog
 
 - Translations updated.
   [phabegger]
+
+
+1.2 (2010-11-18)
+----------------
+
+- adjust Manifest.in and IGNORE.txt
+
 
 1.1 (2010-09-13)
 ----------------
