@@ -2,31 +2,31 @@ Changelog
 =========
 
 
-1.2
----
+1.2 (unreleased)
+----------------
 
-* changed entry_points target from opengever to plone
-  [eschmutz]
-
-* added integration tests
+- changed entry_points target from opengever to plone
   [eschmutz]
 
-* added functional test for events
-  [eschmutz]
-  
-* added functional tests for interfaces and adapters
-  [eschmutz]
-  
-* added testsetup for jenkins
+- added integration tests
   [eschmutz]
 
-* Translations updated.
+- added functional test for events
+  [eschmutz]
+
+- added functional tests for interfaces and adapters
+  [eschmutz]
+
+- added testsetup for jenkins
+  [eschmutz]
+
+- Translations updated.
   [phabegger]
 
-1.1
----
+1.1 (2010-09-13)
+----------------
 
-* Issue #23 Uebersetzung in PDF Deckblatt fehlen / Fehler wenn keine Datei
+- Issue #23 Uebersetzung in PDF Deckblatt fehlen / Fehler wenn keine Datei
   hinaufgeladen wurde
   https://extranet.4teamwork.ch/projects/teamraum-kva-buchs/tracker-kva-buchs/23
   translated actions in plone domain
@@ -35,45 +35,47 @@ Changelog
 1.0
 ---
 
+- final relase
+
 0.5
 ---
 
-* [13.10.2009] Created version.txt [jba]
-* [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba]
-    * (AttributeError: context)
-* [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba]
-    * There seemed to be multiple journal list instances
-    * Using PersistentList and PersistentDict now
+- [13.10.2009] Created version.txt [jba]
+- [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba]
+    - (AttributeError: context)
+- [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba]
+    - There seemed to be multiple journal list instances
+    - Using PersistentList and PersistentDict now
 
 
 0.4
 ---
 
-* Added contentrule action for journal entries
+- Added contentrule action for journal entries
   [christian.schneider]
 
 
 0.3
 ---
 
-* Moving from teamraum.journal to ftw.journal
+- Moving from teamraum.journal to ftw.journal
   [christian.schneider]
 
 
 0.2.3
 -----
 
-* Fixed bug that prevented journalizer event handler from working
+- Fixed bug that prevented journalizer event handler from working
   [christian.schneider]
 
 
 0.2.2
 -----
 
-* Added i18n stuff
+- Added i18n stuff
   [christian.schneider]
 
-* Make journaling event handler check if an adapter exists before trying to
+- Make journaling event handler check if an adapter exists before trying to
   journalize
   [christian.schneider]
 
@@ -81,7 +83,7 @@ Changelog
 0.2.1
 -----
 
-* Changed setup.py to try and fix the annoying dependency error when egg-info
+- Changed setup.py to try and fix the annoying dependency error when egg-info
   has not been deleted before running buildout
   [christian.schneider]
 
@@ -89,7 +91,7 @@ Changelog
 0.2
 ---
 
-* Implemented journaling mechanism using adapters and event handlers. There are
+- Implemented journaling mechanism using adapters and event handlers. There are
   two adapters to journalize something on a context, one for journalizing in
   the workflow history, and one for an annotations-based journal. Which one
   is used depends on which marker interface (see interfaces.py) the type
@@ -100,5 +102,5 @@ Changelog
 0.1
 ---
 
-* Initial release
+- Initial release
 
