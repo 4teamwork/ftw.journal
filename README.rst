@@ -2,8 +2,9 @@ Overview
 ========
 
 Currently ``ftw.journal`` provides two adapters to store infos. 
-- orkflow_histoy
- -annotations
+
+- workflow_histoy
+- annotations
 
 Howto use
 Simply Add a rule throught the plone ui. 
@@ -15,6 +16,7 @@ Install
 - Add ``ftw.journal`` to yout buidlout configuration
 
 :: 
+
   [instance]
   eggs = 
     ftw.journal
