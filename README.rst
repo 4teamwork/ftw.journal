@@ -34,7 +34,7 @@ Links
 - Package repository: https://github.com/4teamwork/ftw.journal
 - Issue tracker: https://github.com/4teamwork/ftw.journal/issues
 - Package will be on pypi: http://pypi.python.org/pypi/ftw.journal
-- Continous integration: https://jenkins.4teamwork.ch/job/ftw.journal/
+- Continuous integration: https://jenkins.4teamwork.ch/job/ftw.journal/
 
 
 Maintainer
