@@ -14,7 +14,7 @@ Howto use:
 Install
 =======
 
-- Add ``ftw.journal`` to yout buidlout configuration
+- Add ``ftw.journal`` to your buidlout configuration
 
 ::
 

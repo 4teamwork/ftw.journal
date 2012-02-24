@@ -15,19 +15,19 @@ Changelog
 1.2.1 (2011-11-17)
 ------------------
 
-- changed entry_points target from opengever to plone
+- Changed entry_points target from opengever to plone
   [eschmutz]
 
-- added integration tests
+- Added integration tests
   [eschmutz]
 
-- added functional test for events
+- Added functional test for events
   [eschmutz]
 
-- added functional tests for interfaces and adapters
+- Added functional tests for interfaces and adapters
   [eschmutz]
 
-- added testsetup for jenkins
+- Added testsetup for jenkins
   [eschmutz]
 
 - Translations updated.
@@ -37,27 +37,27 @@ Changelog
 1.2 (2010-11-18)
 ----------------
 
-- adjust Manifest.in and IGNORE.txt
+- Adjust Manifest.in and IGNORE.txt
 
 
 1.1 (2010-09-13)
 ----------------
 
-- translated actions in plone domain
+- Translated actions in plone domain
   [jinfanger]
 
 1.0
 ---
 
-- final relase
+- Final relase
 
 0.5
 ---
 
-- [13.10.2009] Created version.txt [jba]
-- [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba]
+- Created version.txt [jba, 13.10.2009]
+- Fixed Bug in AnnotationsJournalizable-Adapter [jba, 13.10.2009]
     - (AttributeError: context)
-- [13.10.2009] Fixed Bug in AnnotationsJournalizable-Adapter [jba]
+- Fixed Bug in AnnotationsJournalizable-Adapter [jba, 13.10.2009]
     - There seemed to be multiple journal list instances
     - Using PersistentList and PersistentDict now
 
