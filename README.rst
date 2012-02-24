@@ -1,26 +1,27 @@
 Overview
 ========
 
-Currently ``ftw.journal`` provides two adapters to store infos. 
+Currently ``ftw.journal`` provides two adapters to store infos.
 
 - workflow_histoy
 - annotations
 
-Howto use
-Simply Add a rule throught the plone ui. 
+Howto use:
+
+- Simply Add a rule throught the plone ui.
 
 
 Install
-======
+=======
 
 - Add ``ftw.journal`` to yout buidlout configuration
 
-:: 
+::
 
   [instance]
-  eggs = 
+  eggs =
     ftw.journal
-    
+
 - Run buildout
 
 - Install ``ftw.journal`` in portal_setup
