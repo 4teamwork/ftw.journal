@@ -5,14 +5,15 @@ Changelog
 1.2.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Adjust MANIFEST.in: add include for rst files (reamde.rst).
+  [phgross]
 
 
 1.2.3 (2012-02-28)
 ------------------
 
-- Nothing changed yet.
-
+- Fixed previous Release.
+  [phgross]
 
 1.2.2 (2012-02-27)
 ------------------
