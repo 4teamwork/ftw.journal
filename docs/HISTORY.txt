@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.2.4 (unreleased)
+1.2.4 (2012-02-28)
 ------------------
 
 - Adjust MANIFEST.in: add include for rst files (reamde.rst).
