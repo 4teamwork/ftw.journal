@@ -18,15 +18,15 @@ msgstr ""
 
 #: ftw.journal/ftw/journal/rules/journal.py:27
 msgid "A description that will be used in the 'comment' field in the journal entry."
-msgstr ""
+msgstr "Die Beschreibung wird im \"Kommentar\" Feld des Journal Eintrags verwendet."
 
 #: ftw.journal/ftw/journal/rules/journal.py:71
 msgid "A journal action makes an entry into the journal of an object."
-msgstr ""
+msgstr "Eine Aktion, die ein Journal Eintrag erstellt."
 
 #: ftw.journal/ftw/journal/rules/journal.py:24
 msgid "A title that will be used in the 'action' field of the journal entry."
-msgstr ""
+msgstr "Der Titel der Journal Aktion."
 
 #: ftw.journal/ftw/journal/rules/journal.py:23
 msgid "Action"
@@ -56,5 +56,3 @@ msgstr "Journalaktion ${action}"
 #: ftw.journal/ftw/journal/events/handlers.py:21
 msgid "label_journal_entry"
 msgstr "Journaleintrag"
-
-
