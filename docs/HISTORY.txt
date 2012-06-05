@@ -74,12 +74,18 @@ Changelog
 0.5
 ---
 
-- Created version.txt [jba, 13.10.2009]
-- Fixed Bug in AnnotationsJournalizable-Adapter [jba, 13.10.2009]
-    - (AttributeError: context)
-- Fixed Bug in AnnotationsJournalizable-Adapter [jba, 13.10.2009]
+- Created version.txt
+  [jone]
+
+- Fixed Bug in AnnotationsJournalizable-Adapter (AttributeError: context)
+  [13.10.2009]
+
+- Fixed Bug in AnnotationsJournalizable-Adapter
+
     - There seemed to be multiple journal list instances
     - Using PersistentList and PersistentDict now
+
+  [jone]
 
 
 0.4
