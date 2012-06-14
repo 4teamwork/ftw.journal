@@ -18,7 +18,7 @@ msgstr "Vous pouvez insérer une description dans le champ 'commentaires'"
 
 #: ftw.journal/ftw/journal/rules/journal.py:71
 msgid "A journal action makes an entry into the journal of an object."
-msgstr ""
+msgstr "Une action qui crée une entrée dans l'historique"
 
 #: ftw.journal/ftw/journal/rules/journal.py:24
 msgid "A title that will be used in the 'action' field of the journal entry."
@@ -52,4 +52,5 @@ msgstr "Action dans l'historique"
 #: ftw.journal/ftw/journal/events/handlers.py:21
 msgid "label_journal_entry"
 msgstr "Entrée dans l'historique"
+
 
