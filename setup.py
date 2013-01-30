@@ -5,6 +5,9 @@ version = '1.2.6.dev0'
 maintainer = 'Jonas Baumann'
 
 tests_require = [
+    'mocker',
+    'unittest2',
+    'zope.configuration',
     'plone.app.testing',
     'plone.mocktestcase',
     ]
@@ -25,6 +28,7 @@ setup(name='ftw.journal',
         'Framework :: Plone :: 4.0',
         'Framework :: Plone :: 4.1',
         'Framework :: Plone :: 4.2',
+        'Framework :: Plone :: 4.3',
         'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules',
         ],
@@ -42,6 +46,23 @@ setup(name='ftw.journal',
 
       install_requires=[
         'setuptools',
+
+        # Zope
+        'Acquisition',
+        'zope.annotation',
+        'zope.component',
+        'zope.event',
+        'zope.formlib',
+        'zope.i18nmessageid',
+        'zope.interface',
+        'zope.schema',
+        'ZODB3',
+        'Zope2',
+
+        # Plone
+        'Products.CMFCore',
+        'plone.app.contentrules',
+        'plone.contentrules',
         ],
 
       tests_require=tests_require,
