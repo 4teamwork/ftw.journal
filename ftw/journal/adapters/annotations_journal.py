@@ -1,13 +1,9 @@
 from Acquisition import aq_inner
-
-from persistent.list import PersistentList
+from ftw.journal.config import JOURNAL_ENTRIES_ANNOTATIONS_KEY
 from persistent.dict import PersistentDict
+from persistent.list import PersistentList
 from zope.annotation.interfaces import IAnnotations, IAnnotatable
 from zope.interface import alsoProvides
-
-from Products.CMFCore.utils import getToolByName
-
-from ftw.journal.config import JOURNAL_ENTRIES_ANNOTATIONS_KEY
 
 
 class AnnotationsJournalizable(object):
