@@ -1,20 +1,14 @@
-from Acquisition import aq_inner
 from OFS.SimpleItem import SimpleItem
-from zope.component import adapts
-from zope.component.interfaces import ComponentLookupError
-from zope.component.interfaces import IObjectEvent
-from zope.interface import Interface, implements
-from zope.formlib import form
-from zope.event import notify 
-from zope import schema
-
-from plone.app.contentrules.browser.formhelper import AddForm, EditForm 
-from plone.contentrules.rule.interfaces import IRuleElementData, IExecutable
-
-from Products.CMFCore.utils import getToolByName
-from Products.CMFPlone.utils import safe_unicode
-from ftw.journal.events.events import JournalEntryEvent
 from ftw.journal import journalMessageFactory as _
+from ftw.journal.events.events import JournalEntryEvent
+from plone.app.contentrules.browser.formhelper import AddForm, EditForm
+from plone.contentrules.rule.interfaces import IRuleElementData, IExecutable
+from zope import schema
+from zope.component import adapts
+from zope.component.interfaces import IObjectEvent
+from zope.event import notify
+from zope.formlib import form
+from zope.interface import Interface, implements
 
 
 class IJournalAction(Interface):
