@@ -24,8 +24,6 @@ Install
 
 - Run buildout
 
-- Install ``ftw.journal`` in portal_setup
-
 - Add rule through plone ui
 
 
