@@ -42,3 +42,7 @@ Copyright
 This package is copyright by `4teamwork <http://www.4teamwork.ch/>`_.
 
 ``ftw.journal`` is licensed under GNU General Public License, version 2.
+
+.. image:: https://cruel-carlota.pagodabox.com/f601d5347b6e7bf1009a3cfa5580cb37
+   :alt: githalytics.com
+   :target: http://githalytics.com/4teamwork/ftw.journal
