@@ -1,0 +1,22 @@
+# Gettext Message File for ftwplatformv1.
+# 4teamwork <info@4teamwork.ch>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: ftw_Platform_v1 0.9\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: 2008-05-25 13:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: Deutsch <info@4teamwork.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: de\n"
+"Language-Name: Deutsch\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: de-at de-li de-lu de-ch de-de\n"
+
+msgid "label_journal_entry"
+msgstr ""
+
