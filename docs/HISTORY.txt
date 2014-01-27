@@ -5,7 +5,11 @@ Changelog
 1.2.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Update French translations.
+  [jone]
+
+- Move plone translations from i18n to locales folder.
+  [jone]
 
 
 1.2.6 (2013-05-13)
