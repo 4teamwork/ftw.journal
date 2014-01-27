@@ -11,7 +11,8 @@ Changelog
 1.2.6 (2013-05-13)
 ------------------
 
-- Nothing changed yet.
+- Updated French translations.
+  [tschanzt]
 
 
 1.2.5 (2012-06-05)
