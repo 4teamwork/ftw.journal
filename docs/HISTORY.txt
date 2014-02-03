@@ -5,6 +5,9 @@ Changelog
 1.2.7 (unreleased)
 ------------------
 
+- Drop Plone 4.0 compatibility.
+  [jone]
+
 - Update French translations.
   [jone]
 
