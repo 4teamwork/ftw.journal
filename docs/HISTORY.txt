@@ -5,8 +5,8 @@ Changelog
 1.2.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- BugFix: Do not journalize in workflow history if the item has no workflow.
+  [misch]
 
 1.2.7 (2014-02-10)
 ------------------
