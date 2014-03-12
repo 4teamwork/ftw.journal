@@ -57,3 +57,19 @@ class TestFtwJournalIntegration(unittest.TestCase):
         self.assertTrue('private' in journal.get('review_state'))
         self.assertTrue(TEST_USER_ID in journal.get('actor'))
         self.assertTrue(DateTime().Date() in journal.get('time').Date())
+
+    def test_journal_is_none_if_no_workflow_defined(self):
+        """ Test the event with IWorkflowHistoryJournalizable interface
+        """
+
+        portal = self.layer['portal']
+        folder = portal[portal.invokeFactory('Folder', 'f1', )]
+        doc = folder[folder.invokeFactory('Document', 'd1', )]
+
+        alsoProvides(doc, IWorkflowHistoryJournalizable)
+
+        notify(JournalEntryEvent(doc, "new workflow", "modified"))
+
+        wftool = getToolByName(doc, 'portal_workflow')
+        journal = wftool.getStatusOf('simple_publication_workflow', doc)
+        self.assertIsNone(journal)

@@ -13,7 +13,12 @@ class WorkflowHistoryJournalizable(object):
         context = self.context
         workflow_tool = getToolByName(context, 'portal_workflow')
         
-        workflow_id = workflow_tool.getWorkflowsFor(context)[0].id
+        workflows = workflow_tool.getWorkflowsFor(context)
+        
+        if not workflows:
+            return
+        
+        workflow_id = workflows[0].id
         review_state = workflow_tool.getInfoFor(context, 'review_state', None)
 
         history_entry = {
