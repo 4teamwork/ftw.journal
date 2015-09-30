@@ -60,6 +60,7 @@ setup(name='ftw.journal',
         'Zope2',
 
         # Plone
+        'Plone',
         'Products.CMFCore',
         'plone.app.contentrules',
         'plone.contentrules',
