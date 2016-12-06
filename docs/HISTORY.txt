@@ -5,7 +5,8 @@ Changelog
 1.2.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Whitelist journal writes for plone.protect > 3.0
+  [Rotonen]
 
 
 1.2.8 (2014-09-23)

@@ -43,7 +43,6 @@ class TestFtwJournalAdapters(MockTestCase):
         self.assertIn('saved new file', values)
         self.assertIn('ratman', values)
         self.assertIn('15:18', values)
-        self.assertTrue(adapter.context._p_changed)
 
     def test_workflow_history_journal(self):
         """ Test workflow history journal adapter
