@@ -16,17 +16,19 @@ class AnnotationsJournalizable(object):
     def __call__(self, action, comment, actor, time):
         context = self.context
         annotations = IAnnotations(context)
-        journal_annotations = annotations.get(JOURNAL_ENTRIES_ANNOTATIONS_KEY, None)
+        journal_annotations = annotations.get(JOURNAL_ENTRIES_ANNOTATIONS_KEY,
+                                              None)
 
         if not journal_annotations:
             annotations[JOURNAL_ENTRIES_ANNOTATIONS_KEY] = PersistentList()
-            journal_annotations = annotations.get(JOURNAL_ENTRIES_ANNOTATIONS_KEY)
+            journal_annotations = annotations.get(
+                JOURNAL_ENTRIES_ANNOTATIONS_KEY)
 
         history_entry = PersistentDict({
-                         'action' : action,
-                         'comments' : comment,
-                         'actor' : actor,
-                         'time' : time,
+                         'action': action,
+                         'comments': comment,
+                         'actor': actor,
+                         'time': time,
                          })
         journal_annotations.append(history_entry)
         context._p_changed = True
