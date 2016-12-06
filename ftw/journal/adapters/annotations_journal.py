@@ -31,4 +31,3 @@ class AnnotationsJournalizable(object):
                          'time': time,
                          })
         journal_annotations.append(history_entry)
-        context._p_changed = True
