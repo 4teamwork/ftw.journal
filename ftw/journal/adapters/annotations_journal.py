@@ -2,6 +2,7 @@ from Acquisition import aq_inner
 from ftw.journal.config import JOURNAL_ENTRIES_ANNOTATIONS_KEY
 from persistent.dict import PersistentDict
 from persistent.list import PersistentList
+from plone.protect import utils
 from zope.annotation.interfaces import IAnnotations, IAnnotatable
 from zope.interface import alsoProvides
 
@@ -30,4 +31,10 @@ class AnnotationsJournalizable(object):
                          'actor': actor,
                          'time': time,
                          })
+
+        # If we have plone.protect > 3.0, mark the journal write as safe
+        if 'safeWrite' in dir(utils):
+            utils.safeWrite(context)
+            utils.safeWrite(journal_annotations)
+
         journal_annotations.append(history_entry)

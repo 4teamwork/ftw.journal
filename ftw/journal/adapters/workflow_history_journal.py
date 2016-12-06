@@ -1,5 +1,5 @@
 from Acquisition import aq_inner
-
+from plone.protect import utils
 from Products.CMFCore.utils import getToolByName
 
 
@@ -28,5 +28,10 @@ class WorkflowHistoryJournalizable(object):
                          'actor': actor,
                          'time': time,
                          }
+
+        # If we have plone.protect > 3.0, mark the journal write as safe
+        if 'safeWrite' in dir(utils):
+            utils.safeWrite(context)
+            utils.safeWrite(review_state)
 
         workflow_tool.setStatusOf(workflow_id, context, history_entry)
