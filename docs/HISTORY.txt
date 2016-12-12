@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.2.9 (unreleased)
+1.2.9 (2016-12-12)
 ------------------
 
 - Whitelist journal writes for plone.protect > 3.0
