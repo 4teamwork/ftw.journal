@@ -5,7 +5,7 @@ Changelog
 1.2.10 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Drop support for Plone 4.0 and 4.1. [jone]
 
 
 1.2.9 (2016-12-12)
