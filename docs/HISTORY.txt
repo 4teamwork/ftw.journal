@@ -5,6 +5,7 @@ Changelog
 1.2.10 (unreleased)
 -------------------
 
+- Port to Plone 5.1 [njohner]
 - Drop support for Plone 4.2. [njohner]
 - Drop support for Plone 4.0 and 4.1. [jone]
 
