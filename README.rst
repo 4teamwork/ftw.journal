@@ -30,7 +30,7 @@ Install
 Compatibility
 -------------
 
-Runs with `Plone <http://www.plone.org/>`_ `4.2` or `4.3`.
+Runs with `Plone <http://www.plone.org/>`_ `4.3` or `5.1`.
 
 
 Links
