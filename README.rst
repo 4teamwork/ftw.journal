@@ -1,6 +1,7 @@
 Overview
 ========
 
+
 Currently ``ftw.journal`` provides two adapters to store infos.
 
 - workflow_histoy
