@@ -3,12 +3,12 @@ Overview
 
 Currently ``ftw.journal`` provides two adapters to store infos.
 
-- workflow_histoy
+- workflow_history
 - annotations
 
-Howto use:
+How to use:
 
-- Simply Add a rule throught the plone ui.
+- Simply add a rule through the Plone UI.
 
 
 Install
@@ -24,7 +24,7 @@ Install
 
 - Run buildout
 
-- Add rule through plone ui
+- Add a rule through the Plone UI
 
 
 Compatibility
