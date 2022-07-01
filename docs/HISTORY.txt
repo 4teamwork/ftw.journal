@@ -2,6 +2,12 @@ Changelog
 =========
 
 
+1.3.0 (unreleased)
+------------------
+
+- Add uuid4 id for new annotation journal entries.
+  [elioschmutz]
+
 1.2.9 (2016-12-12)
 ------------------
 
