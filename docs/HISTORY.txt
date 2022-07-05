@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.3.1 (unreleased)
+1.4.0 (2022-07-05)
 ------------------
 
 - Add uuid4 id for new annotation journal entries. [elioschmutz]
