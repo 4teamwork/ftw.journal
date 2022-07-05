@@ -3,6 +3,7 @@ from ftw.journal.config import JOURNAL_ENTRIES_ANNOTATIONS_KEY
 from persistent.dict import PersistentDict
 from persistent.list import PersistentList
 from plone.protect import utils
+from uuid import uuid4
 from zope.annotation.interfaces import IAnnotations, IAnnotatable
 from zope.interface import alsoProvides
 
@@ -26,6 +27,7 @@ class AnnotationsJournalizable(object):
                 JOURNAL_ENTRIES_ANNOTATIONS_KEY)
 
         history_entry = PersistentDict({
+                         'id': str(uuid4()),
                          'action': action,
                          'comments': comment,
                          'actor': actor,

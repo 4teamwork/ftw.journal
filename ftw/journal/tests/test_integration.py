@@ -31,9 +31,24 @@ class TestFtwJournalIntegration(unittest.TestCase):
         journal = IAnnotations(doc).get(JOURNAL_ENTRIES_ANNOTATIONS_KEY)[0]
 
         self.assertTrue('modified' in journal.get('action'))
+        self.assertTrue(type(journal.get('id')) == str)
         self.assertTrue('added new line' in journal.get('comments'))
         self.assertTrue(TEST_USER_ID in journal.get('actor'))
         self.assertTrue(DateTime().Date() in journal.get('time').Date())
+
+    def test_annotations_journal_id_is_unique(self):
+        portal = self.layer['portal']
+        folder = portal[portal.invokeFactory('Folder', 'f1', )]
+        doc = folder[folder.invokeFactory('Document', 'd1', )]
+
+        alsoProvides(doc, IAnnotationsJournalizable)
+
+        notify(JournalEntryEvent(doc, "added new line", "modified"))
+        notify(JournalEntryEvent(doc, "added another line", "modified"))
+
+        journal = IAnnotations(doc).get(JOURNAL_ENTRIES_ANNOTATIONS_KEY)
+
+        self.assertNotEqual(journal[0].get('id'), journal[1].get('id'))
 
     def test_event_workflow_history(self):
         """ Test the event with IWorkflowHistoryJournalizable interface
